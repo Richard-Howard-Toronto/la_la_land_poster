@@ -17,7 +17,7 @@ body {
 
 img {
   height: 500px;
-  width: 95%;
+  width: 100%;
 }
 
 figure {
@@ -41,11 +41,10 @@ figure {
 /*this is the wrapper around the image*/
 
 .film-poster {
-  /*position: relative;*/
+  position: relative;
   display:inline-block;
   float: left;
-  border:solid orange;
-  width: 45%;
+  width: 50%;
   margin-right: 10px;
 }
 
@@ -57,7 +56,8 @@ figure {
   position: absolute;
   color: red;
   top: 3px;
-  right: 30px;
+  right: 3px;
+  width: 30px;
 }
 
 /*the three icons*/
