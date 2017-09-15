@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%; /* this will be 16px on most browsers */
+  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  height: 500px;
+  width: 95%;
+}
+
+figure {
+  margin: 0;
+}
+
+/*i want the action-like three icons to be positioned relative to the .film class, no?*/
+
+.film {
+  border: 2px dotted green;
+  overflow: hidden;
+  margin: 50px;
+  position: relative;
+}
+
+.film-details {
+
+}
+/*nth child*/
+
+/*this is the wrapper around the image*/
+
+.film-poster {
+  /*position: relative;*/
+  display:inline-block;
+  float: left;
+  border:solid orange;
+  width: 45%;
+  margin-right: 10px;
+}
+
+/*the child of film-poster is action-water-later?*/
+
+/*the little clock*/
+
+.action-watch-later {
+  position: absolute;
+  color: red;
+  top: 3px;
+  right: 30px;
+}
+
+/*the three icons*/
+
+/*for the first poster, but not the second???*/
+
+.action-like {
+  position: absolute;
+  color: red;
+  right: 1px;
+  bottom: 1px;
+  border: blue solid;
+}
